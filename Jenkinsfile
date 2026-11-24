@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         // Format imposé par l'énoncé : nomprenom_classe_nomProjet (Docker Hub exige des minuscules)
-        registry = "DOCKERHUB_USER/chayebwassim-4ssa4-gestion-projets"
+        registry = "wassimchaieb2004/chayebwassim-4ssa4-gestion-projets"
         registryCredential = 'dockerHub'
         dockerImage = ''
     }
